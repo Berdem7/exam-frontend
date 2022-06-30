@@ -11,15 +11,15 @@ function SingleList(props) {
           <input type="checkbox" defaultChecked id="checkbox" />
           <label htmlFor="checkbox"></label>
         </div>
-        {/* <h1 className="mx-7">{props.title}</h1> */}
-        <input
+        <h1 className="mx-7">{props.title}</h1>
+        {/* <input
           className="mx-7"
           type="text"
           placeholder={props.title}
           disabled={props.disabled ? "disabled" : ""}
           onBlur={(e) => (e.target.disabled = true)}
           // ref={inputValue}
-        ></input>
+        ></input> */}
       </div>
       <div className="flex flex-row basis-1/5">
         <div onClick={props.handleEdit}>

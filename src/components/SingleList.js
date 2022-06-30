@@ -23,7 +23,7 @@ function SingleList(props) {
       </div>
       <div className="flex flex-row basis-1/5">
         <div onClick={props.handleEdit}>
-          <img className="w-5 mx-4" src="/images/edit.svg" alt="" />
+          <img className="w-5 mx-4" src="/images/edit.svg" alt={props.id} />
         </div>
         <div onClick={props.handleDelete}>
           <img className="w-5 mx-4" src="/images/bin.svg" alt={props.id} />
